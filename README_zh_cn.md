@@ -98,6 +98,10 @@ HY-Motion 1.0 支持 macOS、Windows 和 Linux 系统。
 首先，请通过 [官方网站](https://pytorch.org/) 安装 PyTorch。然后安装依赖项：
 
 ```bash
+git clone https://github.com/your-repo/HY-Motion.git
+cd HY-Motion
+# 请确认已经安装git-lfs
+git lfs pull
 pip install -r requirements.txt
 ```
 
