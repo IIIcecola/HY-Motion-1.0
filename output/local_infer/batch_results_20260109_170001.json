@@ -1,0 +1,68 @@
+[
+  {
+    "input_file": ""./examples/example_prompts/duration_test.json,
+    "basement": "duration_test",
+    "total": 50,
+    "success": 50,
+    "failed": 0,
+    "details": [
+      {
+        "formatted_idx": "00000000",
+        "status": "success",
+        "text": "",
+        "rewritten_text": "",
+        "duration":2.0,
+        "seeds": [
+          166,
+          568,
+          91,
+          187
+        ],
+        "file_or_html": [
+          "output/local_infer/duration_test_0116/00000000_000.fbx",
+          "output/local_infer/duration_test_0116/00000000_000.txt",
+          "output/local_infer/duration_test_0116/00000000_001.fbx",
+          "output/local_infer/duration_test_0116/00000000_001.txt",
+          "output/local_infer/duration_test_0116/00000000_002.fbx",
+          "output/local_infer/duration_test_0116/00000000_002.txt",
+          "output/local_infer/duration_test_0116/00000000_003.fbx",
+          "output/local_infer/duration_test_0116/00000000_003.txt"
+        ],
+        # update local_infer.py. 
+        # new params:rewrite_elapsed_seconds, motion_elapsed_seconds, total_elapsed_seconds
+        "rewrite_elapsed_seconds": 8.74,
+        "motion_elapsed_seconds": 10.26,
+        "total_elapsed_seconds": 19.0
+      },
+      {
+        "formatted_idx": "00000001",
+        "status": "success",
+        "text": "",
+        "rewritten_text": "",
+        "duration":2.0,
+        "seeds": [
+          166,
+          568,
+          91,
+          187
+        ],
+        "file_or_html": [
+          "output/local_infer/duration_test_0116/00000001_000.fbx",
+          "output/local_infer/duration_test_0116/00000001_000.txt",
+          "output/local_infer/duration_test_0116/00000001_001.fbx",
+          "output/local_infer/duration_test_0116/00000001_001.txt",
+          "output/local_infer/duration_test_0116/00000001_002.fbx",
+          "output/local_infer/duration_test_0116/00000001_002.txt",
+          "output/local_infer/duration_test_0116/00000001_003.fbx",
+          "output/local_infer/duration_test_0116/00000001_003.txt"
+        ],
+        # update local_infer.py. 
+        # new params:rewrite_elapsed_seconds, motion_elapsed_seconds, total_elapsed_seconds
+        "rewrite_elapsed_seconds": 7.46,
+        "motion_elapsed_seconds": 9.94,
+        "total_elapsed_seconds": 17.4
+      },
+      ...
+    ]
+  }
+]
