@@ -1,6 +1,6 @@
 [
   {
-    "input_file": ""./examples/example_prompts/duration_test.json,
+    "input_file": "./examples/example_prompts/duration_test.json",
     "basement": "duration_test",
     "total": 50,
     "success": 50,
