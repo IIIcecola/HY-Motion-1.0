@@ -28,8 +28,6 @@
           "output/local_infer/duration_test_0116/00000000_003.fbx",
           "output/local_infer/duration_test_0116/00000000_003.txt"
         ],
-        # update local_infer.py. 
-        # new params:rewrite_elapsed_seconds, motion_elapsed_seconds, total_elapsed_seconds
         "rewrite_elapsed_seconds": 8.74,
         "motion_elapsed_seconds": 10.26,
         "total_elapsed_seconds": 19.0
